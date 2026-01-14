@@ -37,6 +37,8 @@ header {
   display: flex;
   justify-content: flex-end;
   align-content: center;
+  position: sticky; /*pro menu ficar parado*/
+  top: 0; /*mas tem que colocar esse também*/
 }
 
 nav#menu ul {
